@@ -1,0 +1,119 @@
+body{
+
+    font-family: 'Markazi Text', serif;
+    margin: 0;
+    background: #eee;
+    height:auto;
+}
+
+main{
+    max-width:900px;
+    margin:auto;
+    box-shadow: 30px 0px 50px gray,
+        -30px 0px 30px lightgray;
+}
+
+h1{
+    font-size:4rem;
+    margin:0;
+    color:#3b444b;
+    text-transform:uppercase;
+}
+
+h2{    
+    font-size:1.6rem;
+    margin:0;    
+}
+
+img{
+    width:100%;
+    display:block;
+
+}
+
+video{
+
+    width:100%;
+    display:block;
+}
+
+#first{
+    background-color: whitesmoke;
+}
+
+#first-text{
+    display:flex;
+    min-height:350px;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+#first-text h2{
+    color:#888;
+    min-width:350px;
+}
+
+#header{
+  
+    padding:0.5rem;
+    text-align:center;
+    background:#3b444b;
+    color:white;
+ }
+
+#header h2{
+  
+    font-size:2.2rem;
+ }
+
+.caption{
+    padding:0.8rem;
+    text-align: center;    
+}
+
+footer{
+    text-align:center;
+    padding:1rem 1rem;
+    margin:auto;
+    color:#333;  
+    
+}
+
+footer h3{
+    font-size:2rem;
+    margin-bottom:0px;
+    
+}
+
+footer p{
+    margin:auto;
+}
+.btn{
+    padding: 0.3rem 0.6rem;
+    border: 1px #ccc solid;
+    font-size: 1.2rem;
+    display:inline-block;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#333;
+    transition: background 600ms ease;
+    
+}
+
+.btn:hover{
+    background:lightgray;
+}
+
+
+
+/* for bigger screen size 700px or bigger*/
+
+@media(min-width:700px){
+    #first{
+        display:flex;
+        height:100%;
+    }
+   
+}
